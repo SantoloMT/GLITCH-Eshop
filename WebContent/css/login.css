@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+#myLogin form {
+  max-width: 320px;
+  width: 100%;
+  background-color: #1e2833;
+  padding: 30px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+}
+
+#myLogin form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+
+#myLogin form .btn-primary {
+  background: #9205c0;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+
+#myLogin form .btn-primary:hover, #myLogin form .btn-primary:active {
+  background: #9205c0;
+  outline: none;
+}
+
+#myLogin form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+#myLogin form .forgot:hover, #myLogin form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+#myLogin form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.modal-content{
+	max-width: 320px;
+  	width: 90%;
+	background: linear-gradient(135deg, #1e2833, #871b89, #003d6b);
+}
+
+@media (max-width:991px) {
+  #myLogin form {
+    padding: 40px;
+  }
+}

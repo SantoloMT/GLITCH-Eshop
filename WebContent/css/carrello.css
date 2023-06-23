@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+.img-catalogo{
+	margin: 3%;
+  	max-width: 70%;
+  	width: 300px;
+  	height: 300px;
+}
+
+.h3{
+	text-align: center;
+}
+
+#infoCarrello{
+	margin-top: 150px;
+}
+
+.testoCarrello{
+	text-align: center;
+}

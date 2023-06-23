@@ -1,0 +1,207 @@
+@charset "ISO-8859-1";
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background: transparent;
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/videos/video-game-retro-background-video-id1008358364?s=640x640");
+}
+
+.navbar{
+  background: linear-gradient(135deg, #1e2833, #871b89, #003d6b);
+  padding-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif; 
+  cololr: #fff;
+}
+
+.navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  color: #ccc;
+  box-shadow: none;
+  color: #fff;
+  transition: border-bottom-color 0.3s;
+  margin-left: 10%;
+}
+
+.navbar-nav .nav-item .nav-link {	
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.navbar-light .navbar-text a {
+    color: #fff;
+    background: transparent;
+}
+
+.features-boxed{
+	padding-top: 5%;	/*per distanzare i button del filtraggio dal carousel*/
+}
+
+/*box per la descrizione dei prodotti*/
+.box{
+	padding-top: 10%;
+	text-align: center;
+	align-items: center;
+}
+
+.input{
+	text-align: center;
+}
+
+/*Home catalogo*/
+.home{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #fff;
+}
+
+.imgFluid{
+	max-width: 70%;
+	max-height: 70%;
+	margin-left: 10%;
+}
+
+.btnGlitch{
+	background: #df0092;
+	border-color: #9205c0;
+	color: #fff;
+  	border: none;
+  	border-radius: 4px;
+  	padding: 2%;
+  	box-shadow: none;
+  	margin-top: 35px;
+  	text-shadow: none;
+  	outline: none !important;
+}
+
+.btnGlitch: hover{
+	background: #00ffc2;
+}
+
+/*Pagina personale, di ricerca e del carrello*/
+#pagina{
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 3%;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+/*Bottone registrazione*/
+.btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, .show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
+}
+
+.header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 40px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: .3rem .8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show > .btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-clean-search .action-button:hover, .navigation-clean-search .action-button:focus {
+  background: #66d7d7;
+}
+
+.header-blue .action-button:hover {
+  color: #fff;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-clean-search .action-button, .navigation-clean-button .action-button:active {
+  background: #56c6c6;
+  border-radius: 20px;
+  font-size: inherit;
+  color: #fff !important;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  padding: 8px 20px;
+  transition: background-color 0.25s;
+}
+
+/*Suggerimenti ricerca*/
+#listaProdotti{
+	background-color: #66d7d7; 
+}
+
+/*Carousel*/
+#myVideo{
+	max-width: 100%;
+}
+
+/*Filtro categoria*/
+ .filterDiv {
+  	display: none;
+}
+
+.show {
+  	display: block;
+}
+
+
+/*Paginazione*/
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    align-items: center;
+    padding: 3%;
+}
+
+.bottone{
+	background: aqua;
+}
+
+/*foto per la pagina ChiSiamo*/
+#foto{
+	max-width: 90%;
+}
+
+/*form di Glitch*/
+#formGlitch{
+	width: 70%; 
+	padding: 20px; 
+	margin-left: 15%; 
+	background-color: #c8fcf8; 
+	text-align: left;
+}
